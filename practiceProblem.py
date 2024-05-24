@@ -4,11 +4,11 @@
 
 # print(8*8)
 
-# 1. line gap
+# -----1. line gap-----
 
 # print(" Hey, this is me \nMd. Nazrul Islam")
 
-# 2. Variable and Data type
+# -----2. Variable and Data type-----
 
 # a= 1234512
 # print(a)
@@ -20,32 +20,32 @@
 # print("The type of c is",  type(c))
 
 
-# 3. Arithmetic Operation
+# -----3. Arithmetic Operation-----
 
-# Addition
+# ---Addition---
 # a= 2+3
 # print(a)
 
-# Substraction
+# ---Substraction---
 # b= 6-5
 # print(b)
 
-# Multiplicatoin
+# ---Multiplicatoin---
 # c= 4*5
 # print(c)
 
-# Modulas
+# ---Modulas---
 # d= 5%3
 # print(d)
 
-# float division
+# ---float division---
 # e= 15/7
 # print(e)
 
-# Floor operation
+# ---Floor operation---
 # print(15//7)
 
-# 4. TypeCasting in python
+# -----4. TypeCasting in python-----
 
 # a= "1"
 # b= "3"
@@ -55,28 +55,28 @@
 # Implicit TypeCasting
 
 
-# 5. Taking Input
+# -----5. Taking Input-----
 
 # number= input("Please inter a number:")
 # print(number)
 
-# Input as a String
+# ---Input as a String---
 # x=input("Enter First Number:")
 # y=input("Enter Second Number:")
 # print(x+y)
 
-# Input as an Integer
+# ---Input as an Integer---
 # x=int(input("Enter First Number:"))
 # y=int(input("Enter Second Number:"))
 # print(x+y)
 
-# or
+# ---or---
 
 # x=input("Enter First Number:")
 # y=input("Enter Second Number:")
 # print(int(x)+int(y))
 
-# 6.Multi line String
+# -----6.Multi line String-----
 # DoubleQuote= 'Hello "This is" Md. Nazrul Islam'
 # print(DoubleQuote)
 
@@ -85,7 +85,7 @@
 # Md. Nazrul Islam'''
 # print(Multiline)
 
-# 7. String Slicein
+# -----7. String Slicein-----
 # name= "Nazrul"
 # print(name[0])
 # print(name[1])
@@ -101,7 +101,7 @@
 # print(myName[4:10])
 # print(myName[0:-6]) # It workd like:  print(myName[0:len(myName)-6])
 
-#8. String Methods
+#-----8. String Methods-----
 
 # a="Nazrul !!!!"
 # print(a.upper()) # Upper method used to make the whole string in upper case
@@ -110,17 +110,17 @@
 # print(a.rstrip("!"))  #right strip
 # print(a.replace("Nazrul", "Bulbul"))  #replace method used to replce the existing string to another one.
 
-b= " my name is Md. Nazrul Islam"
+# b= " my name is Md. Nazrul Islam"
 # print(b.split()) #split method
 # c=b.lstrip(" ") #left strip removes space 
 # print(c.capitalize())  #after removing space capitalize method capitalize the First letter "m"
 
-print(len(b))
-print((b.center(50)))
-print(len(b.center(50)))
+# print(len(b))
+# print((b.center(50)))
+# print(len(b.center(50)))
 
-print(b.count("m"))
-print(b.endswith("Islam"))
-print(b.endswith("Md.", 5, 15))  #Ending word, starting index position, ending word index position
-print(b.find("is"))
-print(b.index("is"))
+# print(b.count("m"))
+# print(b.endswith("Islam"))
+# print(b.endswith("Md.", 5, 15))  #Ending word, starting index position, ending word index position
+# print(b.find("is"))
+# print(b.index("is"))
